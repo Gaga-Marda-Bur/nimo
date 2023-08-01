@@ -1,0 +1,268 @@
+:root{
+    --color1:#D89584;
+    --color2: #F4F4F4;
+}
+body{
+    margin: 0;
+    background-color: white;
+    line-height: 1.5;
+}
+iframe{
+    width: 100%;
+    border: none;
+    height: 350px;
+}
+div.cover{
+    background: url(cover_overlay.png) no-repeat center/100% 100%,url(cover.jpg) no-repeat center/cover;
+    height: 360px;
+    position: relative;
+}
+img.gaga1{
+    position: relative;
+    left:50%;
+    margin-left: -50px;
+    margin-top: 50px;
+
+}
+img.cover_profil{
+    height: 100px;
+    width: 90px;
+    border-radius: 50%;
+    }
+    h1{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-size: 42px;
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+    div.cover p{
+        color: lightgray;
+        text-align: center;
+        margin-top: 5px;
+    }
+    div.cover_contact{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        border-left: 4px solid var(--color1);
+        padding-left: 8px;
+    }
+    div.cover_contact p{
+        text-align: left;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    div.cover_contact p:first-child{
+        margin-bottom: 10px;
+    }
+    div.cover_contact *{
+        color: white;
+        font-size: 14px;
+    }
+    a.cover_button{
+        background-color: #0006;
+        border: 3px solid var(--color1);
+        display: inline-block;
+        margin-top: 18px;
+        padding: 8px 20px;
+        color: var(--color1);
+        font-size: 14px;
+        text-decoration: none;
+    }
+    a.cover_button:hover{
+        color: white;
+        border: 3px solid white;
+    }
+    .section{
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 30px;
+        padding-bottom: 80px;
+        overflow: auto;
+    }
+    div.gray_section1{
+        background: url(triangle2white.svg) no-repeat center bottom/100%;
+        background-color: var(--color2);
+        padding-top: 70px;
+
+    }
+    div.gray_section2{
+        background: url(triangle1white.svg) no-repeat center top/100%;
+        background-color: var(--color2);
+       padding-top: 80px;
+       
+    }
+    h2{
+        text-align: center;
+        font-size: 35px;
+        margin-top: 0px;
+    }
+    .separation_line{
+        height: 2px;
+        background-color: #979797;
+        width: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+    }
+    .gray_section1 p{
+        font-size: 22px;
+        color:#656565;
+        max-width: 550px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .col40{
+        width:40%;
+    }
+    .col60{
+        width: 60%;
+        float: right;
+        padding-left: 16px;
+        box-sizing: border-box;
+    }
+    div.text_with_left_line{
+         border-left: 4px solid var(--color1);
+         padding-left: 8px;
+         height: 50px;
+         display:inline-block;
+    }
+     div.text_with_left_line p{
+        margin-top: 0;
+
+     }
+     .table_portfolio1{
+        width: 47%;
+        display: inline-block;
+     }
+     .table_portfolio2{
+        width: 47%; 
+        float: right;
+     }
+     .portfolio_line{
+        background-color: #D89584;
+        height: 50px; 
+        width: 4px;
+        margin-right: 10px;
+        box-sizing: border-box;
+     }
+     .frame-title{
+        box-shadow:
+        inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+     }
+     /*PORtFOLIO*/
+     .portfolio_header{
+        background:url(header.jpg) no-repeat center/cover;
+        height: 100px;
+        padding-right: 16px;
+     }
+     .portfoio-vertical-line{
+        margin-top: 20px; 
+        margin-left: 16px;  
+        display: inline-block;
+     }
+     .portfolio-button{
+        float: right;
+        margin-right: 20px;
+     }
+     .portfolio_header_title{
+        color: white;
+        border-left: 4px solid var(--color1);
+        margin-left: 16px; 
+        margin-top: 8px;
+        padding-left: 8px;
+        padding-top: 0; 
+        padding-bottom: 0;
+        display: inline-block;
+        font-size: 26px;
+        font-weight: bold;
+     }
+     .portfolio-image{
+        width: 75%;
+
+    }
+
+     @media only screen and (max-width:750px){
+        img.cover_profil{
+            height: 90px;
+            width: 80px;
+            border-radius: 50%;
+            margin-top: 75px;
+            }
+        h1{
+            margin-top: 6px;
+            font-size: 38px;
+            margin-bottom: 0;
+        }
+        div.cover p{
+            margin-top: 2px;
+            font-size: 13px;
+        }
+        .section{
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        div.gray_section1{
+            padding-top: 40px;
+    
+        }
+        h1{
+            font-size: 35px;
+        }
+        h2{
+            font-size: 30px;
+          
+        }
+        .col40{
+            width:100%;
+        }
+        .col60{
+            width: 100%;
+            padding-left: 16px;
+            box-sizing: border-box;
+            margin-left: -1px;
+        }
+        .table_portfolio1{
+            width: 100%;
+        }
+         .table_portfolio2{
+            width: 100%; 
+        }
+        .frame-title{
+            margin: 0px 0px;
+            padding: 0px 0px;
+            box-shadow: none;
+
+        }
+        .frame-title img{
+            width: 70px;
+            height: 60px;
+            margin-top: 0;
+            padding-top: -10px;
+        }
+        .portfolio_header{
+            height: max-content;
+            padding-bottom: 16px;
+         }
+        .portfoio-vertical-line{
+            margin-top: 20px; 
+            margin-left: 16px;  
+            display: inline;
+         }
+         .portfolio-button{
+            margin-right: 5px;
+            float: none;
+            text-align: center;
+        }
+        div.text_with_left_line{
+            margin-left: 0px;
+        }
+        .portfolio-image{
+            width: 100%;
+
+        }
+     }
